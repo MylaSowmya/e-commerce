@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+<title></title>
+<style>
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  .image-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .image-container {
+    width: 30%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .image {
+    max-width: 100%;
+    height: auto;
+    
+  }
+  .image-info {
+    margin-top: 10px;
+    
+  }
+  
+
+
+
+
+
+
+
+#navbar {
+background-color:rgb(48, 48, 167);
+height: 50px;
+}
+
+#navbar .navbar-brand {
+width: 30%;
+/* background-color: blue; */
+float: left;
+padding-top: 16px;
+padding-left: 15px;
+color: #ecebeb;
+font-weight: bold;
+}
+
+#navbar .nav {
+width: 70%;
+/* background-color: red; */
+float: left;
+}
+
+#navbar .nav ul {
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+margin-top: 15px;
+}
+
+#navbar .nav ul li {
+float: right;
+font-weight: 500;
+}
+
+#navbar .nav ul li a:link,
+#navbar .nav ul li a:visited {
+color: #ffffff;
+text-decoration: none;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 6px;
+}
+
+#navbar .nav ul li a:hover {
+background-color:lightseagreen;
+}
+.column:hover{
+  background-color: #ecebeb;
+}
+
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 190px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+</style>
+</head>
+<body>
+
+    <div id="navbar">
+        <div id="navbar-brand"></div>
+        <div class="nav">
+            <ul>
+                <li><a href="legal.html">Privacy Policy</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+                <li><a href="cart.html">Shopping Cart</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li>
+                  <select onchange="location=this.value;">
+                    <option value="#">filter</option>
+                    <option value="product.html">kurtas</option>
+                    <option value="product2.html">shirts</option>
+                    <option value="product3.html">electronics</option>
+                    <option value="product4.html">beauty</option>
+ 
+                    </select>
+                </li>
+                <li><a href="home.html">Home</a></li>
+                
+            </ul>
+          </div>
+      </div>
+
+
+
+
+        <div class="image-row">
+          <div class="image-container">
+            <img class="image" src="C:/Users/pandu/OneDrive/Desktop/kurta1.jpeg" alt="Image 1" width="200px;">
+            <div class="image-info">
+              <p>anushansa 
+                Women Printed Cotton Silk A-line Kurta </p>
+                
+                  <ul>available colour:pink,white</ul>
+                  <ul>price:899 INR</ul>
+                  <button type="button">Add to cart</button>
+              
+            </div>
+          </div>
+          <div class="image-container">
+            <img class="image" src="C:/Users/pandu/OneDrive/Desktop/kurta2.jpeg" alt="Image 2">
+            <div class="image-info">
+              <p>Ramyaa
+                machine printed modern kurta
+              </p>
+              
+                <ul>available colour:darkblue</ul>
+                <ul>price:1099 INR</ul>
+                <button type="button">Add to cart</button>
+            </div>
+          </div>
+          <div class="image-container">
+            <img class="image" src="C:/Users/pandu/OneDrive/Desktop/kurta3.jpeg" alt="Image 3">
+            <div class="image-info">
+              <p>kamali 
+                cotton pure kurta
+              </p>
+
+                <ul>available colour:black,yellow</ul>
+                <ul>price:999 INR</ul>
+                <button type="button">Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="image-row">
+          <div class="image-container">
+            <img class="image" src="C:/Users/pandu/OneDrive/Desktop/kurta4.jpeg" alt="Image 4">
+            <div class="image-info">
+              <p>vishnu's cotton kurta</p>
+            
+              <ul>available colour:green</ul>
+              <ul>price:799 INR</ul>
+              <button type="button">Add to cart</button>
+            </div>
+          </div>
+          <div class="image-container">
+            <img class="image" src="C:/Users/pandu/OneDrive/Desktop/kurta5.jpeg" alt="Image 5">
+            <div class="image-info">
+              <p>vishnu's cotton floral kurta</p>
+            </div>
+            
+              <ul>available colour:red,black</ul>
+              <ul>price:850 INR</ul>
+              <button type="button">Add to cart</button>
+          </div>
+          <div class="image-container">
+            <img class="image" src="C:/Users/pandu/OneDrive/Desktop/kurta6.jpeg" alt="Image 6">
+            <div class="image-info">
+              <p>divya's pure cotton kurta</p>
+            </div>
+            
+              <ul>available colour:white</ul>
+              <ul>price:1199 INR</ul>
+              <button type="button">Add to cart</button>
+            </div>
+          </div>
+        </div>
+
+
+
+
+</body>
+</html>
